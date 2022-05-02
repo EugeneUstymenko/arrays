@@ -21,9 +21,9 @@ public class Main {
         int [] resultArray = new int[countPositiveSizeArray];
         int tmp = 0;
         System.out.print("\nResult array: ");
-        for (int i = 0; i < inputArray.length; i++) {
-            if (inputArray[i] > 0){
-                resultArray[tmp] = inputArray[i];
+        for (int j : inputArray) {
+            if (j > 0) {
+                resultArray[tmp] = j;
                 System.out.print(resultArray[tmp] + " ");
                 tmp++;
             }
