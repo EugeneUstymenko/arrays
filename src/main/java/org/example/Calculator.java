@@ -26,32 +26,32 @@ public class Calculator {
     }
 
     // Методы на сумму
-    public static int plus(int... valuse){
+    public static int plus(int... values){
         int sum = 0;
-        for (int x : valuse){
+        for (int x : values){
             sum +=x;
         }
         return sum;
     }
-    public static long plus(long... valuse){
+    public static long plus(long... values){
         long sum = 0;
-        for (long x : valuse){
+        for (long x : values){
             sum +=x;
         }
         return sum;
     }
 
-    public static double plus(double... valuse){
+    public static double plus(double... values){
         double sum = 0;
-        for (double x : valuse){
+        for (double x : values){
             sum +=x;
         }
         return sum;
     }
 
-    public static float plus(float... valuse){
+    public static float plus(float... values){
         float sum = 0;
-        for (float x : valuse){
+        for (float x : values){
             sum +=x;
         }
         return sum;

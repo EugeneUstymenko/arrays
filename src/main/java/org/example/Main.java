@@ -2,6 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
+        //Calculator
         int valueInt1 = 21;
         int valueInt2 = 0;
         int valueInt3 = -21;
@@ -24,5 +25,14 @@ public class Main {
         System.out.print("\nOperation plus: ");
         System.out.print(Calculator.plus(valueDouble1, valueLong1, valueInt2, valueInt3, valueLong3, valueDouble2,
                 valueDouble3, valueFloat2));
+
+        //Arrays refactoring
+        Array array = new Array();
+        System.out.print("Input a number of array size: ");
+        int arraySize = array.consoleInputArraySize();
+        System.out.print("Fill array with numbers: \n");
+        int[] arrayResult = array.resultArray(array.inputArray(arraySize));
+        System.out.print("\nResult array: ");
+        array.printResultArray(arrayResult);
     }
 }
